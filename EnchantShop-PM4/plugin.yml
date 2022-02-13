@@ -1,0 +1,18 @@
+---
+name: EnchantShop
+main: Theslowaja\EnchantShop\Main
+version: 1.0.0
+api: 4.0.0
+load: POSTWORLD
+author: Theslowaja
+commands:
+  enchantshop:
+    description: Enchant Command
+    aliases: [eshop, es]
+    permission: eshop.command
+    
+permissions:
+  eshop.command:
+    default: true
+    description: Use all EnchantShop Commands
+...
