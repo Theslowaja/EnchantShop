@@ -6,6 +6,7 @@ api: 4.0.0
 load: POSTWORLD
 author: Theslowaja
 depend: EconomyAPI
+softdepend: PiggyCustomEnchants
 commands:
   enchantshop:
     description: Enchant Command
