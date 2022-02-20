@@ -4,6 +4,7 @@ use pocketmine\event\player\PlayerInteractEvent;
 use pocketmine\event\Listener;
 use pocketmine\Item;
 use pocketmine\block\EnchantingTable;
+use Theslowaja\EnchantShop\Main;
 
 /**
  * Class EventListener
