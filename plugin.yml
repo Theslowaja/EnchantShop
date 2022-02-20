@@ -5,6 +5,7 @@ version: 1.0.0
 api: 4.0.0
 load: POSTWORLD
 author: Theslowaja
+depend: EconomyAPI
 commands:
   enchantshop:
     description: Enchant Command
