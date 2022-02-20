@@ -30,7 +30,7 @@ Class EventListener implements Listener{
         if($ev->getAction() !== PlayerInteractEvent::RIGHT_CLICK_BLOCK) return;
         $table = $this->plugin->shop->getNested('air');
         if($table and $ev->getBlock() instanceof EnchantingTable){
-            $ev->isCancelled();
+            $ev->cancel();
             $this->plugin->ListForm($ev->getPlayer());
         }
     }
